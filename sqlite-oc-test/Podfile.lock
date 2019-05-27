@@ -1,0 +1,18 @@
+PODS:
+  - sqlite3 (3.24.0):
+    - sqlite3/common (= 3.24.0)
+  - sqlite3/common (3.24.0)
+
+DEPENDENCIES:
+  - sqlite3 (~> 3.24.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - sqlite3
+
+SPEC CHECKSUMS:
+  sqlite3: 3ba3b687e159a637b40df3438b860f7b3fe60a96
+
+PODFILE CHECKSUM: 2604927356856fb6d3718bcf44019ae0ec7a50bd
+
+COCOAPODS: 1.6.1

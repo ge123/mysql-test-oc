@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03948A7AF91A962B63920F67 /* libPods-sqlite-oc-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E09426C004A13675C6163F1 /* libPods-sqlite-oc-test.a */; };
+		0D9FE6B603FFA8B691B5E257 /* libPods-sqlite-oc-testUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C544CCB9042045C5A573C66 /* libPods-sqlite-oc-testUITests.a */; };
+		A2917A55229A29EC00541A17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2917A54229A29EC00541A17 /* AppDelegate.m */; };
+		A2917A58229A29EC00541A17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2917A57229A29EC00541A17 /* ViewController.m */; };
+		A2917A5B229A29EC00541A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2917A59229A29EC00541A17 /* Main.storyboard */; };
+		A2917A5D229A29ED00541A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2917A5C229A29ED00541A17 /* Assets.xcassets */; };
+		A2917A60229A29ED00541A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2917A5E229A29ED00541A17 /* LaunchScreen.storyboard */; };
+		A2917A63229A29ED00541A17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2917A62229A29ED00541A17 /* main.m */; };
+		A2917A6D229A29ED00541A17 /* sqlite_oc_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2917A6C229A29ED00541A17 /* sqlite_oc_testTests.m */; };
+		A2917A78229A29ED00541A17 /* sqlite_oc_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2917A77229A29ED00541A17 /* sqlite_oc_testUITests.m */; };
+		A2917A91229AD29400541A17 /* TestDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A2917A8C229AD29400541A17 /* TestDataBase.m */; };
+		A2917A92229AD29400541A17 /* DataBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = A2917A8E229AD29400541A17 /* DataBaseService.m */; };
+		AB3F5DECFD5E64B330A619A4 /* libPods-sqlite-oc-testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BAA545132396448BB8141E /* libPods-sqlite-oc-testTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2917A69229A29ED00541A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2917A48229A29EC00541A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2917A4F229A29EC00541A17;
+			remoteInfo = "sqlite-oc-test";
+		};
+		A2917A74229A29ED00541A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2917A48229A29EC00541A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2917A4F229A29EC00541A17;
+			remoteInfo = "sqlite-oc-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C5C58C154760799BB137E4F /* Pods-sqlite-oc-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlite-oc-test.release.xcconfig"; path = "Target Support Files/Pods-sqlite-oc-test/Pods-sqlite-oc-test.release.xcconfig"; sourceTree = "<group>"; };
+		35BB5EB3B4FC7D552135C120 /* Pods-sqlite-oc-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlite-oc-testUITests.release.xcconfig"; path = "Target Support Files/Pods-sqlite-oc-testUITests/Pods-sqlite-oc-testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		668599945A082BE701484B63 /* Pods-sqlite-oc-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlite-oc-test.debug.xcconfig"; path = "Target Support Files/Pods-sqlite-oc-test/Pods-sqlite-oc-test.debug.xcconfig"; sourceTree = "<group>"; };
+		6C544CCB9042045C5A573C66 /* libPods-sqlite-oc-testUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sqlite-oc-testUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E09426C004A13675C6163F1 /* libPods-sqlite-oc-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sqlite-oc-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F622820D6DF6F62CA953D0 /* Pods-sqlite-oc-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlite-oc-testTests.release.xcconfig"; path = "Target Support Files/Pods-sqlite-oc-testTests/Pods-sqlite-oc-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		76DB65B47E3622BF3BB43B8B /* Pods-sqlite-oc-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlite-oc-testUITests.debug.xcconfig"; path = "Target Support Files/Pods-sqlite-oc-testUITests/Pods-sqlite-oc-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88BAA545132396448BB8141E /* libPods-sqlite-oc-testTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sqlite-oc-testTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2917A50229A29EC00541A17 /* sqlite-oc-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sqlite-oc-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2917A53229A29EC00541A17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2917A54229A29EC00541A17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2917A56229A29EC00541A17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2917A57229A29EC00541A17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2917A5A229A29EC00541A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2917A5C229A29ED00541A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2917A5F229A29ED00541A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2917A61229A29ED00541A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2917A62229A29ED00541A17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2917A68229A29ED00541A17 /* sqlite-oc-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sqlite-oc-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2917A6C229A29ED00541A17 /* sqlite_oc_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqlite_oc_testTests.m; sourceTree = "<group>"; };
+		A2917A6E229A29ED00541A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2917A73229A29ED00541A17 /* sqlite-oc-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sqlite-oc-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2917A77229A29ED00541A17 /* sqlite_oc_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqlite_oc_testUITests.m; sourceTree = "<group>"; };
+		A2917A79229A29ED00541A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2917A8C229AD29400541A17 /* TestDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDataBase.m; sourceTree = "<group>"; };
+		A2917A8E229AD29400541A17 /* DataBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseService.m; sourceTree = "<group>"; };
+		A2917A8F229AD29400541A17 /* DataBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseService.h; sourceTree = "<group>"; };
+		A2917A90229AD29400541A17 /* TestDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDataBase.h; sourceTree = "<group>"; };
+		C62A1CE8FAF749D0AB192D59 /* Pods-sqlite-oc-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlite-oc-testTests.debug.xcconfig"; path = "Target Support Files/Pods-sqlite-oc-testTests/Pods-sqlite-oc-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2917A4D229A29EC00541A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03948A7AF91A962B63920F67 /* libPods-sqlite-oc-test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2917A65229A29ED00541A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3F5DECFD5E64B330A619A4 /* libPods-sqlite-oc-testTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2917A70229A29ED00541A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9FE6B603FFA8B691B5E257 /* libPods-sqlite-oc-testUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36D69B0EBDBEC7838900F8B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				668599945A082BE701484B63 /* Pods-sqlite-oc-test.debug.xcconfig */,
+				2C5C58C154760799BB137E4F /* Pods-sqlite-oc-test.release.xcconfig */,
+				C62A1CE8FAF749D0AB192D59 /* Pods-sqlite-oc-testTests.debug.xcconfig */,
+				70F622820D6DF6F62CA953D0 /* Pods-sqlite-oc-testTests.release.xcconfig */,
+				76DB65B47E3622BF3BB43B8B /* Pods-sqlite-oc-testUITests.debug.xcconfig */,
+				35BB5EB3B4FC7D552135C120 /* Pods-sqlite-oc-testUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2917A47229A29EC00541A17 = {
+			isa = PBXGroup;
+			children = (
+				A2917A52229A29EC00541A17 /* sqlite-oc-test */,
+				A2917A6B229A29ED00541A17 /* sqlite-oc-testTests */,
+				A2917A76229A29ED00541A17 /* sqlite-oc-testUITests */,
+				A2917A51229A29EC00541A17 /* Products */,
+				36D69B0EBDBEC7838900F8B9 /* Pods */,
+				A739060E308F2D1E5F241E17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2917A51229A29EC00541A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2917A50229A29EC00541A17 /* sqlite-oc-test.app */,
+				A2917A68229A29ED00541A17 /* sqlite-oc-testTests.xctest */,
+				A2917A73229A29ED00541A17 /* sqlite-oc-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2917A52229A29EC00541A17 /* sqlite-oc-test */ = {
+			isa = PBXGroup;
+			children = (
+				A2917A8D229AD29400541A17 /* service */,
+				A2917A90229AD29400541A17 /* TestDataBase.h */,
+				A2917A8C229AD29400541A17 /* TestDataBase.m */,
+				A2917A53229A29EC00541A17 /* AppDelegate.h */,
+				A2917A54229A29EC00541A17 /* AppDelegate.m */,
+				A2917A56229A29EC00541A17 /* ViewController.h */,
+				A2917A57229A29EC00541A17 /* ViewController.m */,
+				A2917A59229A29EC00541A17 /* Main.storyboard */,
+				A2917A5C229A29ED00541A17 /* Assets.xcassets */,
+				A2917A5E229A29ED00541A17 /* LaunchScreen.storyboard */,
+				A2917A61229A29ED00541A17 /* Info.plist */,
+				A2917A62229A29ED00541A17 /* main.m */,
+			);
+			path = "sqlite-oc-test";
+			sourceTree = "<group>";
+		};
+		A2917A6B229A29ED00541A17 /* sqlite-oc-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2917A6C229A29ED00541A17 /* sqlite_oc_testTests.m */,
+				A2917A6E229A29ED00541A17 /* Info.plist */,
+			);
+			path = "sqlite-oc-testTests";
+			sourceTree = "<group>";
+		};
+		A2917A76229A29ED00541A17 /* sqlite-oc-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2917A77229A29ED00541A17 /* sqlite_oc_testUITests.m */,
+				A2917A79229A29ED00541A17 /* Info.plist */,
+			);
+			path = "sqlite-oc-testUITests";
+			sourceTree = "<group>";
+		};
+		A2917A8D229AD29400541A17 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				A2917A8F229AD29400541A17 /* DataBaseService.h */,
+				A2917A8E229AD29400541A17 /* DataBaseService.m */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		A739060E308F2D1E5F241E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E09426C004A13675C6163F1 /* libPods-sqlite-oc-test.a */,
+				88BAA545132396448BB8141E /* libPods-sqlite-oc-testTests.a */,
+				6C544CCB9042045C5A573C66 /* libPods-sqlite-oc-testUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2917A4F229A29EC00541A17 /* sqlite-oc-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2917A7C229A29ED00541A17 /* Build configuration list for PBXNativeTarget "sqlite-oc-test" */;
+			buildPhases = (
+				0997EBEC33A3252A5F58203E /* [CP] Check Pods Manifest.lock */,
+				A2917A4C229A29EC00541A17 /* Sources */,
+				A2917A4D229A29EC00541A17 /* Frameworks */,
+				A2917A4E229A29EC00541A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sqlite-oc-test";
+			productName = "sqlite-oc-test";
+			productReference = A2917A50229A29EC00541A17 /* sqlite-oc-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2917A67229A29ED00541A17 /* sqlite-oc-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2917A7F229A29ED00541A17 /* Build configuration list for PBXNativeTarget "sqlite-oc-testTests" */;
+			buildPhases = (
+				F7072AFCFB3C3FEACFD5A557 /* [CP] Check Pods Manifest.lock */,
+				A2917A64229A29ED00541A17 /* Sources */,
+				A2917A65229A29ED00541A17 /* Frameworks */,
+				A2917A66229A29ED00541A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2917A6A229A29ED00541A17 /* PBXTargetDependency */,
+			);
+			name = "sqlite-oc-testTests";
+			productName = "sqlite-oc-testTests";
+			productReference = A2917A68229A29ED00541A17 /* sqlite-oc-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2917A72229A29ED00541A17 /* sqlite-oc-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2917A82229A29ED00541A17 /* Build configuration list for PBXNativeTarget "sqlite-oc-testUITests" */;
+			buildPhases = (
+				EEAAFC0C602CF657B27476B0 /* [CP] Check Pods Manifest.lock */,
+				A2917A6F229A29ED00541A17 /* Sources */,
+				A2917A70229A29ED00541A17 /* Frameworks */,
+				A2917A71229A29ED00541A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2917A75229A29ED00541A17 /* PBXTargetDependency */,
+			);
+			name = "sqlite-oc-testUITests";
+			productName = "sqlite-oc-testUITests";
+			productReference = A2917A73229A29ED00541A17 /* sqlite-oc-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2917A48229A29EC00541A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "高召葛";
+				TargetAttributes = {
+					A2917A4F229A29EC00541A17 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A2917A67229A29ED00541A17 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A2917A4F229A29EC00541A17;
+					};
+					A2917A72229A29ED00541A17 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A2917A4F229A29EC00541A17;
+					};
+				};
+			};
+			buildConfigurationList = A2917A4B229A29EC00541A17 /* Build configuration list for PBXProject "sqlite-oc-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2917A47229A29EC00541A17;
+			productRefGroup = A2917A51229A29EC00541A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2917A4F229A29EC00541A17 /* sqlite-oc-test */,
+				A2917A67229A29ED00541A17 /* sqlite-oc-testTests */,
+				A2917A72229A29ED00541A17 /* sqlite-oc-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2917A4E229A29EC00541A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2917A60229A29ED00541A17 /* LaunchScreen.storyboard in Resources */,
+				A2917A5D229A29ED00541A17 /* Assets.xcassets in Resources */,
+				A2917A5B229A29EC00541A17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2917A66229A29ED00541A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2917A71229A29ED00541A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0997EBEC33A3252A5F58203E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sqlite-oc-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEAAFC0C602CF657B27476B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sqlite-oc-testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7072AFCFB3C3FEACFD5A557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sqlite-oc-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2917A4C229A29EC00541A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2917A58229A29EC00541A17 /* ViewController.m in Sources */,
+				A2917A63229A29ED00541A17 /* main.m in Sources */,
+				A2917A91229AD29400541A17 /* TestDataBase.m in Sources */,
+				A2917A55229A29EC00541A17 /* AppDelegate.m in Sources */,
+				A2917A92229AD29400541A17 /* DataBaseService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2917A64229A29ED00541A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2917A6D229A29ED00541A17 /* sqlite_oc_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2917A6F229A29ED00541A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2917A78229A29ED00541A17 /* sqlite_oc_testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2917A6A229A29ED00541A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2917A4F229A29EC00541A17 /* sqlite-oc-test */;
+			targetProxy = A2917A69229A29ED00541A17 /* PBXContainerItemProxy */;
+		};
+		A2917A75229A29ED00541A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2917A4F229A29EC00541A17 /* sqlite-oc-test */;
+			targetProxy = A2917A74229A29ED00541A17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2917A59229A29EC00541A17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2917A5A229A29EC00541A17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2917A5E229A29ED00541A17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2917A5F229A29ED00541A17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2917A7A229A29ED00541A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2917A7B229A29ED00541A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2917A7D229A29ED00541A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668599945A082BE701484B63 /* Pods-sqlite-oc-test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "sqlite-oc-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.sqlite-oc-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2917A7E229A29ED00541A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5C58C154760799BB137E4F /* Pods-sqlite-oc-test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "sqlite-oc-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.sqlite-oc-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2917A80229A29ED00541A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62A1CE8FAF749D0AB192D59 /* Pods-sqlite-oc-testTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "sqlite-oc-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.sqlite-oc-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqlite-oc-test.app/sqlite-oc-test";
+			};
+			name = Debug;
+		};
+		A2917A81229A29ED00541A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F622820D6DF6F62CA953D0 /* Pods-sqlite-oc-testTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "sqlite-oc-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.sqlite-oc-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqlite-oc-test.app/sqlite-oc-test";
+			};
+			name = Release;
+		};
+		A2917A83229A29ED00541A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DB65B47E3622BF3BB43B8B /* Pods-sqlite-oc-testUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "sqlite-oc-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.sqlite-oc-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sqlite-oc-test";
+			};
+			name = Debug;
+		};
+		A2917A84229A29ED00541A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BB5EB3B4FC7D552135C120 /* Pods-sqlite-oc-testUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "sqlite-oc-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.sqlite-oc-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sqlite-oc-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2917A4B229A29EC00541A17 /* Build configuration list for PBXProject "sqlite-oc-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2917A7A229A29ED00541A17 /* Debug */,
+				A2917A7B229A29ED00541A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2917A7C229A29ED00541A17 /* Build configuration list for PBXNativeTarget "sqlite-oc-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2917A7D229A29ED00541A17 /* Debug */,
+				A2917A7E229A29ED00541A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2917A7F229A29ED00541A17 /* Build configuration list for PBXNativeTarget "sqlite-oc-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2917A80229A29ED00541A17 /* Debug */,
+				A2917A81229A29ED00541A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2917A82229A29ED00541A17 /* Build configuration list for PBXNativeTarget "sqlite-oc-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2917A83229A29ED00541A17 /* Debug */,
+				A2917A84229A29ED00541A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2917A48229A29EC00541A17 /* Project object */;
+}
